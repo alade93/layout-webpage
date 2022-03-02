@@ -1,0 +1,106 @@
+body {
+  background-color: fuchsia;
+  margin: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: medium;
+}
+#header {
+  background-color: darkgrey;
+  margin: 10px;
+  height: 90px;
+  border-radius: 2.5px;
+}
+#navbar ul {
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+
+  background-color: fuchsia;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#navbar ul li {
+  display: inline;
+}
+
+#navbar ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.2em 1em;
+  color: blueviolet;
+  background-color: deeppink;
+}
+
+#navbar ul li a:hover {
+  background-color: bisque;
+}
+.main {
+  background-color: lightcoral;
+  margin-left: 10px;
+  margin-right: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 2.5px;
+  padding: 15px;
+  font-size: 110%;
+}
+h1 {
+  font-size: 200%;
+  color: beige;
+}
+h2 {
+  font-size: 100%;
+  color: darksalmon;
+}
+h3 {
+  font-size: 250%;
+  text-align: center;
+  color: cornsilk;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0px;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.sideright {
+  background-color: rgb(14, 14, 145);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 2.5px;
+  padding: 15px;
+  font-size: 105%;
+  float: right;
+  width: 250px;
+  clear: right;
+}
+/* footer */
+#footer {
+  background-color: pink;
+  margin: 10px;
+  height: 60px;
+  border-radius: 5px;
+  color: blanchedalmond;
+  text-align: center;
+  font-size: 90%;
+}
+#footer ul li {
+  display: inline;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+  padding: 0.2em 1em;
+  color: deeppink;
+  background-color: lightpink;
+}
+
+#footer ul li a:hover {
+  background-color: bisque;
+}
